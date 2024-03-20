@@ -21,7 +21,7 @@ precision_score(y_test, y_pred)
 recall_score(y_test, y_pred)
 
 
-
+y_pridicted_prob = best_clf.predict_proba(X_test) #
 
 
 
